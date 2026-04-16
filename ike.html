@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Ike - Quality Assurance Engineer Portfolio">
+    <title>John Ike | QA Engineer</title>
+    <link rel="stylesheet" href="Style2.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Background Decoration -->
+    <div class="bg-decoration">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <span class="logo-icon">👨‍💻</span>
+                <span class="logo-text">John Ike</span>
+            </a>
+            
+            <div class="header-actions">
+                <nav class="nav">
+                    <a href="#about" class="nav-link active">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                
+                <!-- Dark Mode Toggle -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            
+            <!-- Hero / Profile Section -->
+            <section id="about" class="hero">
+                <div class="hero-content">
+                    <div class="hero-image-wrapper">
+                        <div class="image-frame">
+                            <img src="hikay.jpeg" 
+                                 alt="John Ike" 
+                                 class="profile-image"
+                                 onerror="this.src='https://ui-avatars.com/api/?name=John+Ike&size=200&background=3b82f6&color=fff'">
+                            <div class="image-glow"></div>
+                        </div>
+                        <div class="status-badge">
+                            <span class="status-dot"></span>
+                            Available for work
+                        </div>
+                    </div>
+                    
+                    <div class="hero-text">
+                        <p class="greeting">Hello, I'm</p>
+                        <h1 class="name">John Ike</h1>
+                        <h2 class="title">Quality Assurance Engineer</h2>
+                        
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-icon">🎂</span>
+                                <div>
+                                    <span class="info-label">Age</span>
+                                    <span class="info-value" id="age">Calculating...</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">📍</span>
+                                <div>
+                                    <span class="info-label">Location</span>
+                                    <span class="info-value">Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="bio">
+                            Detail-oriented QA Engineer dedicated to delivering high-quality software through 
+                            rigorous testing, automation, and a keen eye for bugs.
+                        </p>
+
+                        <!-- CV Download Button -->
+                        <div class="cta-group">
+                            <!-- ⚠️ REPLACE 'resume.pdf' WITH YOUR ACTUAL FILE NAME -->
+                            <a href="John Ike Resume.pdf" download class="btn btn-primary">
+                                📄 Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section skills-section">
+                <div class="section-header">
+                    <h3>Technical Skills</h3>
+                    <p>Tools and methodologies I use to ensure quality.</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span>Manual Testing</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span>Test Automation</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span>Bug Tracking (clickup)</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-info">
+                            <span>API Testing</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section contact-section">
+                <div class="section-header">
+                    <h3>Get In Touch</h3>
+                    <p>Reach out for collaborations or just to say hi!</p>
+                </div>
+                
+                <div class="contact-cards">
+                    <!-- Email -->
+                    <a href="mailto:johnike61@gmail.com" class="contact-card">
+                        <div class="card-icon">📧</div>
+                        <div class="card-content">
+                            <span class="card-label">Email Me</span>
+                            <span class="card-value">johnike61@gmail.com</span>
+                        </div>
+                    </a>
+                    
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/2347039655435" target="_blank" class="contact-card">
+                        <div class="card-icon">💬</div>
+                        <div class="card-content">
+                            <span class="card-label">WhatsApp</span>
+                            <span class="card-value">Chat with me</span>
+                        </div>
+                    </a>
+
+                    <!-- LinkedIn (Placeholder) -->
+                    <a href="www.linkedin.com/in/john-ikechukwu-samuel" target="_blank" class="contact-card social-card">
+                        <div class="card-icon">🔗</div>
+                        <div class="card-content">
+                            <span class="card-label">LinkedIn</span>
+                            <span class="card-value">View Profile</span>
+                        </div>
+                    </a>
+
+                    <!-- GitHub (Placeholder) -->
+                    <a href="#" target="_blank" class="contact-card social-card">
+                        <div class="card-icon">💻</div>
+                        <div class="card-content">
+                            <span class="card-label">GitHub</span>
+                            <span class="card-value">View Repos</span>
+                        </div>
+                    </a>
+                    <!-- Facebook -->
+<a href="https://facebook.com/john ike" target="_blank" rel="noopener noreferrer" class="contact-card social-card">
+    <div class="card-icon">📘</div>
+    <div class="card-content">
+        <span class="card-label">Facebook</span>
+        <span class="card-value">Connect with me</span>
+    </div>
+</a>
+
+<!-- X (Twitter) -->
+<a href="https://x.com/sammy_hikay" target="_blank" rel="noopener noreferrer" class="contact-card social-card">
+    <div class="card-icon">🐦</div>
+    <div class="card-content">
+        <span class="card-label">X (Twitter)</span>
+        <span class="card-value">Follow updates</span>
+    </div>
+</a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> John Ike. Built with code & coffee.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
